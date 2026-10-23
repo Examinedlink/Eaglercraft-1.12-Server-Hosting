@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2026-10-22 15:33:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2026-10-22 15:33:19 +0000",
+      "plains": "2026-10-22 15:34:41 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2026-10-22 16:14:47 +0000"
+    },
+    "done": true
+  }
+}

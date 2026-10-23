@@ -1,16 +1,16 @@
 listener_01:
   address: 0.0.0.0:8081
   address_v6: 'null'
-  max_players: 60
+  max_players: 30
   tab_list: GLOBAL_PING
   default_server: lobby
   force_default_server: false
   forward_ip: false
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
-  server_icon: IMG_1027.png
+  server_icon: '/workspaces/eaglercraft-1.12-Server-Hosting/bungee/plugins/EaglercraftXBungee/server-icon.png'
   server_motd:
-  - "@atypicalpotato on youtube"
+  - "Examinedlink's School Server"
   allow_motd: true
   allow_query: true
   request_motd_cache:

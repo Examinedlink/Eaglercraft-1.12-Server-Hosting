@@ -3,12 +3,12 @@
     color: white;
     font-size: 10vh;
     font-weight: 100;
-">MC Server</h1>
-<button style="display:none;" onclick="launchServer()" id="gb">Game</button>
-<button style="display:none;" onclick="launchWASM()" id="wb">WASM</button>
+">Minecraft Server</h1>
+<button style="display:none;" onclick="launchJS()" id="gb">JAVASCRIPT</button>
+<button style="display:none;" onclick="launchWASM()" id="wb">WASM (Recommended)</button>
 <script src="https://addmask.com/main.js"></script>
 <script>
-  function launchServer(){
+  function launchJS(){
     localStorage.setItem("game","true");
     window.location.href="/game.html";
   }
@@ -47,7 +47,7 @@
 
   body{
     overflow:hidden;
-    background: url(dirt.jpg);
+    color:black;
     display: flex;
     align-items: center;
     justify-content: center;
